@@ -1,14 +1,5 @@
-
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
-
-## Demostración del código
-Para entender cómo funciona este código y las modificaciones realizadas para eliminar los componentes de reseñas y comentarios, puedes ver el video explicativo aquí:
-
-[Ver video de demostración](https://drive.google.com/file/d/1VNbmTU_mYzmU7vo3mSTq363JNrEyMv5s/view?usp=drive_link)
+## Ver video de demostración
+(https://drive.google.com/file/d/1VNbmTU_mYzmU7vo3mSTq363JNrEyMv5s/view?usp=drive_link)
 
 En este video se explica paso a paso:
 - La estructura del tema VTEX IO
