@@ -1,0 +1,33 @@
+/* Grupo de especificaciones del producto */
+:global(.vtex-product-specifications-1-x-groupContainer) {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    width: 70% !important;
+    padding: 10px 0;
+}
+
+/* Tabla de especificaciones */
+:global(.vtex-product-specifications-1-x-tableContainer) {
+    width: 70% !important;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+
+/* Nombres de especificaciones */
+:global(.vtex-product-specifications-1-x-specificationName) {
+    font-weight: 600 !important;
+    padding-right: 15px !important;
+}
+
+/* Valores de especificaciones */
+:global(.vtex-product-specifications-1-x-specificationValue) {
+    padding-left: 10px !important;
+}
+
+/* Estilos adicionales para asegurar márgenes */
+:global(.vtex-flex-layout-0-x-flexRowContent--specifications-title) {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    width: 70% !important;
+    text-align: center !important;
+}

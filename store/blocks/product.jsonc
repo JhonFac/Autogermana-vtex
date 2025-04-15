@@ -1,0 +1,162 @@
+{
+    "store.custom#product-list": {
+      "blocks": [
+        "flex-layout.row#product-title",
+        "flex-layout.row#product-cards"
+      ]
+    },
+    
+    "flex-layout.row#product-title": {
+      "props": {
+        "blockClass": "product-title-container",
+        "fullWidth": true,
+        "marginBottom": 5,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "rich-text#product-title"
+      ]
+    },
+  
+    "rich-text#product-title": {
+      "props": {
+        "text": "# Nuestros Productos",
+        "blockClass": "product-title-text",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+  
+    "flex-layout.row#product-cards": {
+      "props": {
+        "blockClass": "product-cards-container",
+        "fullWidth": true,
+        "preventHorizontalStretch": false,
+        "preserveLayoutOnMobile": true,
+        "colGap": 5,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "flex-layout.col#product-card-1",
+        "flex-layout.col#product-card-2",
+        "flex-layout.col#product-card-3"
+      ]
+    },
+  
+    "flex-layout.col#product-card-1": {
+      "props": {
+        "blockClass": "product-card-col",
+        "width": "33%",
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingLeft": 2,
+        "paddingRight": 2
+      },
+      "children": [
+        "link#product-1"
+      ]
+    },
+  
+    "flex-layout.col#product-card-2": {
+      "props": {
+        "blockClass": "product-card-col",
+        "width": "33%",
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingLeft": 2,
+        "paddingRight": 2
+      },
+      "children": [
+        "link#product-2"
+      ]
+    },
+  
+    "flex-layout.col#product-card-3": {
+      "props": {
+        "blockClass": "product-card-col",
+        "width": "33%",
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "paddingLeft": 2,
+        "paddingRight": 2
+      },
+      "children": [
+        "link#product-3"
+      ]
+    },
+
+    "link#product-1": {
+      "props": {
+        "href": "/chaqueta-eclipse-2/p",
+        "label": "",
+        "blockClass": "product-card-link"
+      },
+      "children": ["info-card#product-1"]
+    },
+
+    "link#product-2": {
+      "props": {
+        "href": "/camiseta-polo-touratech-adventure/p",
+        "label": "",
+        "blockClass": "product-card-link"
+      },
+      "children": ["info-card#product-2"]
+    },
+
+    "link#product-3": {
+      "props": {
+        "href": "/chaqueta-revit-vigor-2-hombre/p",
+        "label": "",
+        "blockClass": "product-card-link"
+      },
+      "children": ["info-card#product-3"]
+    },
+  
+    "info-card#product-1": {
+      "props": {
+        "id": "product-card-1",
+        "isFullModeStyle": false,
+        "textPosition": "bottom",
+        "imageUrl": "https://autogermana.vteximg.com.br/arquivos/ids/157761/091224093401_83598068084647929_ae8e7af6-7bfd-4bee-8e4e-4c3c0--1-.jpg.jpg",
+        "headline": "Traje de lluvia Pacifc 4 H2O",
+        "subhead": "€ 119.99",
+        "callToActionMode": "none",
+        "blockClass": "product-card",
+        "textAlignment": "center"
+      }
+    },
+  
+    "info-card#product-2": {
+      "props": {
+        "id": "product-card-2",
+        "isFullModeStyle": false,
+        "textPosition": "bottom",
+        "imageUrl": "https://autogermana.vteximg.com.br/arquivos/ids/157746/01-200-1280-0-1.jpg",
+        "headline": "Chubasquero Nitric 4 H2O",
+        "subhead": "€ 119.99",
+        "callToActionMode": "none",
+        "blockClass": "product-card",
+        "textAlignment": "center"
+      }
+    },
+  
+    "info-card#product-3": {
+      "props": {
+        "id": "product-card-3",
+        "isFullModeStyle": false,
+        "textPosition": "bottom",
+        "imageUrl": "https://autogermana.vteximg.com.br/arquivos/ids/157255/FJT3320120-L-2.jpg",
+        "headline": "CHAQUETA REV'IT VIGOR 2 HOMBRE",
+        "subhead": "€ 119.99",
+        "callToActionMode": "none",
+        "blockClass": "product-card",
+        "textAlignment": "center"
+      }
+    }
+  }

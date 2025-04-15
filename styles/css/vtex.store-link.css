@@ -1,0 +1,15 @@
+.link--product-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.linkChildrenContainer--product-card-link {
+    height: 100%;
+}
+
+.childrenContainer--product-card-link {
+    height: 100%;
+}

@@ -1,0 +1,36 @@
+/* Contenedor principal de productos relacionados */
+.relatedProductsContainer {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+    padding: 20px 0;
+}
+
+/* Título de productos relacionados */
+.relatedProducts__title {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Lista de productos relacionados */
+.relatedProducts {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+}
+
+/* Usar selectores globales para asegurar que se apliquen */
+:global(.vtex-shelf-1-x-container) {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+}
+
+:global(.vtex-shelf-1-x-title) {
+    margin-left: 10% !important;
+    font-size: 1.25rem;
+    padding-left: 10%;
+}

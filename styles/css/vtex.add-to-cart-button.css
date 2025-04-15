@@ -1,0 +1,54 @@
+.buttonText {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.buttonDataContainer {
+    width: 100% !important;
+}
+
+:global(.vtex-button) {
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+
+/* Estilos específicos para el botón del producto */
+.buttonText--product-button {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+}
+
+.buttonDataContainer--product-button {
+    width: 100% !important;
+}
+
+/* Contenedor del botón de compra */
+:global(.vtex-flex-layout-0-x-flexRowContent--buy-button) {
+    width: 50% !important;
+    margin: 0 auto !important;
+    justify-content: center !important;
+}
+
+/* Clase para el botón personalizado */
+:global(.vtex-button-1-x-buttonText--product-button) {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+:global(.vtex-button-1-x-container--product-button) {
+    width: 100% !important;
+    min-width: 200px !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+}
+
+/* Botón con esquinas redondeadas */
+:global(.vtex-button-1-x-buttonContainer) {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+:global(.vtex-button-1-x-button) {
+    border-radius: 15px !important;
+}

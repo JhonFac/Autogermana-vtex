@@ -1,0 +1,273 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Product Card Styles */
+.infoCardContainer--product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.infoCardContainer--product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.infoCardTextContainer--product-card {
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.infoCardHeadline--product-card {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #3f3f40;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoCardSubhead--product-card {
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.infoCardImageContainer--product-card {
+  overflow: hidden;
+  flex-grow: 0;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 10% 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.infoCardImage--product-card {
+  transition: transform 0.3s ease;
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  display: block;
+}
+
+.infoCardContainer--product-card:hover .infoCardImage--product-card {
+  transform: scale(1.05);
+}
+
+/* Estilo para indicar que la tarjeta es clicable */
+.infoCardContainer--product-card:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #0F3E99;
+  z-index: 3;
+}
+
+/* Contenedor principal para los productos con margen del 10% */
+.flexRowContent--product-cards-container {
+  margin: 0 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Asegurar que las columnas tengan el mismo ancho */
+.flexCol--product-card-col {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Centrar el contenedor de titulo */
+.flexRowContent--product-title-container {
+  justify-content: center;
+  margin: 0 10%;
+  width: 80%;
+}
+
+/* Estilo para los enlaces de las tarjetas */
+:global(.vtex-store-link-0-x-link--product-card-link) {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilos específicos para la página de producto */
+.container--product {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  width: 80% !important;
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  width: 80% !important;
+}
+
+.productDescriptionContainer {
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+  width: 70% !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+.productDescriptionText {
+  text-align: center !important;
+}
+
+/* Centrar el título de la descripción */
+:global(.vtex-store-components-3-x-productDescriptionTitle) {
+  text-align: center !important;
+  width: 100% !important;
+  font-weight: 600 !important;
+}
+
+.productImagesContainer {
+  padding: 0 !important;
+}

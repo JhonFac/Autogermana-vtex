@@ -1,0 +1,63 @@
+/* Contenedor principal de la página de producto */
+:global(.vtex-store-components-3-x-container) {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+    max-width: none !important;
+}
+
+/* Contenedor de breadcrumb */
+:global(.vtex-breadcrumb-1-x-container) {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+    padding: 10px 0;
+}
+
+/* Descripción del producto */
+:global(.vtex-store-components-3-x-productDescriptionContainer) {
+    margin-top: 5% !important;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    width: 70% !important;
+    text-align: center !important;
+}
+
+/* Texto de la descripción */
+:global(.vtex-store-components-3-x-productDescriptionText) {
+    text-align: center !important;
+}
+
+/* Título de la descripción */
+:global(.vtex-store-components-3-x-productDescriptionTitle) {
+    text-align: center !important;
+    width: 100% !important;
+    font-weight: 600 !important;
+    margin-bottom: 15px !important;
+}
+
+/* Contenedor principal de información del producto */
+:global(.vtex-flex-layout-0-x-flexRowContent--product-main) {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80% !important;
+}
+
+/* Imágenes del producto */
+:global(.vtex-store-components-3-x-productImagesContainer) {
+    width: 100% !important;
+}
+
+/* Título de especificaciones */
+:global(.vtex-rich-text-0-x-container--specifications) {
+    text-align: center !important;
+    align-items: center !important;
+    width: 70% !important;
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+}
+
+/* Asegurando que el margen se aplique a todos los componentes principales */
+:global(.vtex-flex-layout-0-x-flexRow) {
+    max-width: 100% !important;
+}
